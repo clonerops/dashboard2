@@ -4,6 +4,7 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import './_cloner/assets/css/index.css'
 
 const root = ReactDOM.createRoot(
     document.getElementById("root") as HTMLElement
